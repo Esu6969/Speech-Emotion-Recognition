@@ -1,0 +1,28 @@
+# virtual env & env files
+venv/
+.env/
+
+# python cache/compiled
+__pycache__/
+*.pyc
+*$py.class
+
+# build/packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+.wheels/
+
+# data & results
+Data/
+results/
+
+# model/artifacts
+*.pkl
+*.joblib
+*.h5
+
+# OS/editor
+.DS_Store
+.vscode/

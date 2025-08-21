@@ -1,0 +1,13 @@
+## to run this code ##
+
+##
+step 1 :- /Users/esu/Desktop/Speech Emotion Recognition
+
+step 2 :- source venv/bin/activate
+
+step 3 :- python main.py --mode mic --model_path emotion_model.h5 --seconds 4
+##
+
+## python main.py --mode train --data_dir ./Data --model_path emotion_model.joblib
+## python main.py --mode file --model_path emotion_model.joblib --audio_path ./Data/happy/example.wav
+## python main.py --mode mic --model_path emotion_model.joblib --seconds 4
